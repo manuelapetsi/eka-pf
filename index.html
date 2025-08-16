@@ -1,0 +1,1145 @@
+<!doctype html>
+<!-- Auto-slide updated to 15 seconds - Cache bust: 2025-08-15 - Hard refresh: 2025-01-27 - Cache cleared: 2025-08-15 14:47 - Favicon fixed: 2025-08-15 14:49 -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+<title>Emmanuel Apetsi</title>
+<meta name="author" content="Emmanuel Apetsi">
+<meta name="description" content="Welcome to EmmanuelApetsi.com">
+<meta name="keywords" content="emmanuel, apetsi, manuelapetsi, scientific, scientificmanuel, emmanuel apetsi, emmanuelapetsi, aynat founder, feminion founder, SDGs Advocate in Africa, Agripreneur, African Blockchain Developer, TechAficionado">
+<meta property="og:url" content="https://emmanuelapetsi.com" />
+<meta property="og:description" content="#Be_Scientific: Welcome to my personal website">
+<meta property="og:image" content="https://emmanuelapetsi.com/assets/images/webpage_view.png">
+
+<link href="assets/images/icons/favicon.png" rel="icon" type="image/png">
+<link href="assets/images/icons/favicon.png" rel="shortcut icon" type="image/png">
+<link href="assets/images/icons/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon" sizes="144x144">
+<link href="assets/images/icons/apple-touch-icon-120-precomposed.png" rel="apple-touch-icon" sizes="120x120">
+<link href="assets/images/icons/apple-touch-icon-76-precomposed.png" rel="apple-touch-icon" sizes="76x76">
+
+    <!-- Modern fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: { 
+                        primary: '#0747d5',
+                        secondary: '#1e293b'
+                    },
+                    fontFamily: { 
+                        sans: ['Inter', 'system-ui', 'sans-serif'] 
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        html { scroll-behavior: smooth; }
+        .gradient-text { background: linear-gradient(135deg, #1e293b 0%, #0747d5 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+        .hero-gradient { background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%); }
+        .card-hover { transition: all 0.3s ease; }
+        .card-hover:hover { transform: translateY(-8px); box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25); }
+    </style>
+</head>
+<body class="font-sans antialiased bg-white text-slate-700 dark:bg-slate-900 dark:text-slate-200 transition-colors duration-300">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-gradient-to-r from-slate-50 to-white backdrop-blur-md border-b border-slate-200/60 z-50 transition-all duration-300 dark:from-slate-800 dark:to-slate-900 dark:border-slate-600/60">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex-shrink-0">
+                    <a href="#home" class="flex items-center">
+                        <!-- Light Mode Logo -->
+                        <img src="assets/images/logo.svg" alt="Emmanuel Apetsi" class="h-10 w-auto dark:hidden">
+                        <!-- Dark Mode Logo -->
+                        <img src="assets/images/logo-dark.svg" alt="Emmanuel Apetsi" class="h-10 w-auto hidden dark:block">
+                    </a>
+                </div>
+                <div class="flex items-center space-x-3">
+                    <!-- Dark/Light Mode Toggle -->
+                    <button type="button" class="relative w-14 h-7 bg-slate-100 dark:bg-slate-700 rounded-full transition-all duration-300 border border-slate-200/60 dark:border-slate-600/60 shadow-sm hover:shadow-md hover:scale-105 focus:outline-none focus:ring-2 focus:ring-primary/20" id="theme-toggle">
+                        <!-- Toggle Slider -->
+                        <div class="absolute top-0.5 left-0.5 w-6 h-6 bg-white dark:bg-slate-800 rounded-full transition-all duration-300 transform translate-x-0 dark:translate-x-7 shadow-md border border-slate-200/60 dark:border-slate-600/60 flex items-center justify-center">
+                            <!-- Sun Icon (Light Mode) -->
+                            <i class="fas fa-sun w-3 h-3 text-amber-500 dark:text-slate-400 transform transition-all duration-300 dark:opacity-0 dark:scale-0" id="sun-icon"></i>
+                            <!-- Moon Icon (Dark Mode) -->
+                            <i class="fas fa-moon w-3 h-3 text-slate-400 transform transition-all duration-300 opacity-0 scale-0 dark:opacity-100 dark:scale-100" id="moon-icon"></i>
+                        </div>
+                    </button>
+                    
+                    <!-- Accordion Menu Button -->
+                    <div class="relative">
+                        <button type="button" class="text-slate-800 hover:text-primary p-2 transition-all duration-300 dark:text-slate-200" id="accordion-menu-button">
+                            <i class="fas fa-chevron-down h-6 w-6 transform transition-transform duration-300"></i>
+                        </button>
+                        
+                        <!-- Accordion Dropdown Menu -->
+                        <div class="absolute right-0 top-full mt-2 w-64 bg-white/95 backdrop-blur-md border border-slate-200/60 rounded-2xl shadow-2xl opacity-0 invisible transform scale-95 -translate-y-2 transition-all duration-300 origin-top-right dark:bg-slate-800/95 dark:border-slate-600/60" id="accordion-menu">
+                            <div class="p-4 space-y-3">
+                                <a href="#home" class="flex items-center px-4 py-3 text-slate-800 hover:text-primary hover:bg-slate-50 rounded-xl transition-all duration-200 group dark:text-slate-200 dark:hover:bg-slate-700">
+                                    <i class="fas fa-home w-5 h-5 mr-3 text-slate-400 group-hover:text-primary transition-colors duration-200"></i>
+                                    <span class="font-medium">Home</span>
+                                </a>
+                                <a href="#quotes" class="flex items-center px-4 py-3 text-slate-800 hover:text-primary hover:bg-slate-50 rounded-xl transition-all duration-200 group dark:text-slate-200 dark:hover:bg-slate-700">
+                                    <i class="fas fa-comments w-5 h-5 mr-3 text-slate-400 group-hover:text-primary transition-colors duration-200"></i>
+                                    <span class="font-medium">Quotes</span>
+                                </a>
+                                <a href="#contact" class="flex items-center px-4 py-3 text-slate-800 hover:text-primary hover:bg-slate-50 rounded-xl transition-all duration-200 group dark:text-slate-200 dark:hover:bg-slate-700">
+                                    <i class="fas fa-envelope w-5 h-5 mr-3 text-slate-400 group-hover:text-primary transition-colors duration-200"></i>
+                                    <span class="font-medium">Contact</span>
+                                </a>
+                                <a href="https://apetsi.com" target="_blank" rel="noopener noreferrer" class="flex items-center px-4 py-3 text-slate-800 hover:text-primary hover:bg-slate-50 rounded-xl transition-all duration-200 group dark:text-slate-200 dark:hover:bg-slate-700">
+                                    <i class="fas fa-blog w-5 h-5 mr-3 text-slate-400 group-hover:text-primary transition-colors duration-200"></i>
+                                    <span class="font-medium">My Blog</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+   
+
+    </nav>
+
+        <!-- Hero Section -->
+    <section id="home" class="hero-gradient pt-32 pb-20 dark:bg-gradient-to-br dark:from-slate-800 dark:to-slate-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <!-- Left Column - Text -->
+                <div class="lg:col-span-6 space-y-8">
+                    <div class="space-y-4">
+                        <h1 class="text-5xl md:text-7xl font-black tracking-tight text-slate-900 dark:text-white">
+                            Hi,<br>
+                            I'm Emmanuel <span class="gradient-text">Apetsi</span>
+                        </h1>
+    </div>
+    
+                    <div class="space-y-4">
+                        <h3 class="text-2xl md:text-3xl font-semibold text-slate-700 dark:text-slate-300">
+                            <span class="text-primary" id="typing-text">Founder & Director</span><span class="text-primary animate-pulse">|</span>
+                        </h3>
+                        <p class="text-lg md:text-xl text-slate-600 leading-relaxed dark:text-slate-400">
+                            I am a <span class="font-semibold text-slate-900 dark:text-white">scientific</span> guy with <span class="font-semibold text-slate-900 dark:text-white">extraordinary ambitions.</span> Together, let's code a new era.
+                        </p>
+                        <blockquote class="text-lg italic text-slate-600 border-l-4 border-primary pl-4 dark:text-slate-400 dark:border-primary">
+                            "Don't just follow or chase your dreams, hunt them." ~Emmanuel Apetsi
+                        </blockquote>
+                </div>
+                
+                    <!-- Social Links -->
+                    <div class="space-y-4">
+                        <p class="text-lg font-semibold text-slate-900 dark:text-white">Let's Connect</p>
+                        <div class="flex flex-wrap gap-4">
+                            <a href="https://twitter.com/manuelapetsi" target="_blank" class="group inline-flex items-center px-6 py-3 rounded-full border-2 border-slate-200 bg-white text-slate-700 font-medium hover:border-primary hover:text-primary transition-all duration-300 shadow-sm hover:shadow-md hover:scale-105 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-300 dark:hover:border-primary">
+                                <i class="fab fa-x-twitter w-5 h-5 mr-2 group-hover:scale-110 transition-transform duration-300"></i>
+                                <span>Twitter</span>
+                            </a>
+                            <a href="https://instagram.com/manuelapetsi" target="_blank" class="group inline-flex items-center px-6 py-3 rounded-full border-2 border-slate-200 bg-white text-slate-700 font-medium hover:border-primary hover:text-primary transition-all duration-300 shadow-sm hover:shadow-md hover:scale-105 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-300 dark:hover:border-primary">
+                                <i class="fab fa-instagram w-5 h-5 mr-2 group-hover:scale-110 transition-transform duration-300"></i>
+                                <span>Instagram</span>
+                            </a>
+                            <a href="https://linkedin.com/in/manuelapetsi" target="_blank" class="group inline-flex items-center px-6 py-3 rounded-full border-2 border-slate-200 bg-white text-slate-700 font-medium hover:border-primary hover:text-primary transition-all duration-300 shadow-sm hover:shadow-md hover:scale-105 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-300 dark:hover:border-primary">
+                                <i class="fab fa-linkedin w-5 h-5 mr-2 group-hover:scale-110 transition-transform duration-300"></i>
+                                <span>LinkedIn</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Right Column - Images -->
+                <div class="lg:col-span-6 space-y-8">
+                                        <!-- Portfolio Image -->
+                                        <div class="relative overflow-hidden rounded-3xl bg-gradient-to-br from-slate-50 to-blue-50 border border-slate-200/50 animate-wobble dark:from-slate-800 dark:to-slate-700 dark:border-slate-600/50" id="wobble-container">
+                        <div class="relative h-[28rem]">
+                            <img src="assets/images/me-1.jpg" alt="Emmanuel Apetsi - Leadership Portrait" class="w-full h-full object-cover">
+                            
+                            <!-- Full Image View Icon -->
+                            <button type="button" class="absolute top-3 right-3 w-10 h-10 bg-white/90 dark:bg-slate-800/90 backdrop-blur-sm rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 group" id="full-image-view" title="View Full Image">
+                                <i class="fas fa-expand-arrows-alt w-4 h-4 text-slate-700 dark:text-slate-300 group-hover:text-primary transition-colors duration-300"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                                        <!-- Skills Showcase Section -->
+                    <div class="relative bg-gradient-to-br from-slate-50 to-slate-100 rounded-3xl pt-10 pb-6 px-6 pl-0 shadow-xl border border-slate-200/50 overflow-hidden dark:from-slate-800 dark:to-slate-700 dark:border-slate-600/50">
+                        <div class="flex items-center h-full">
+                            <!-- Left Side - Vertical Domains Text -->
+                            <div class="flex-shrink-0 -ml-4">
+                                <h4 class="text-2xl font-bold text-gray-500 transform -rotate-90 origin-center whitespace-nowrap dark:text-slate-300">Domains</h4>
+                    </div>
+                    
+                            <!-- Right Side - Skills Carousel -->
+                            <div class="flex-1 -ml-8">
+                                <!-- Skills Carousel Container -->
+                                <div class="relative h-20">
+                                    <!-- Skill 1 - AI/ML -->
+                                    <div class="skill-slide absolute inset-0 opacity-100 transition-all duration-1000 ease-out transform scale-100" data-skill="1">
+                                        <div class="flex items-center justify-center h-full">
+                                            <div class="text-center max-w-sm mx-auto">
+                                                <div class="w-12 h-12 bg-gradient-to-br from-primary/10 to-blue-500/10 rounded-xl flex items-center justify-center mx-auto mb-2 group-hover:scale-110 transition-transform duration-300">
+                                                    <i class="fas fa-brain w-6 h-6 text-primary"></i>
+                                                </div>
+                                                <h5 class="text-lg font-bold text-slate-800 dark:text-slate-200 mb-1">AI/ML</h5>
+                                                <p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed">Machine Learning algorithms, Neural Networks, and AI solutions</p>
+                                            </div>
+                                        </div>
+                        </div>
+                        
+                                    <!-- Skill 2 - Blockchain -->
+                                    <div class="skill-slide absolute inset-0 opacity-0 transition-all duration-1000 ease-out transform scale-95" data-skill="2">
+                                        <div class="flex items-center justify-center h-full">
+                                            <div class="text-center max-w-sm mx-auto">
+                                                <div class="w-12 h-12 bg-gradient-to-br from-primary/10 to-blue-500/10 rounded-xl flex items-center justify-center mx-auto mb-2 group-hover:scale-110 transition-transform duration-300">
+                                                    <i class="fas fa-link w-6 h-6 text-primary"></i>
+                                                </div>
+                                                <h5 class="text-lg font-bold text-slate-800 dark:text-slate-200 mb-1">Blockchain</h5>
+                                                <p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed">Distributed Ledger Technology, Smart Contracts, and Cryptocurrency</p>
+                                            </div>
+                    </div>
+                        </div>
+                        
+                                    <!-- Skill 3 - Cybersecurity -->
+                                    <div class="skill-slide absolute inset-0 opacity-0 transition-all duration-1000 ease-out transform scale-95" data-skill="3">
+                                        <div class="flex items-center justify-center h-full">
+                                            <div class="text-center max-w-sm mx-auto">
+                                                                                                <div class="w-12 h-12 bg-gradient-to-br from-primary/10 to-blue-500/10 rounded-xl flex items-center justify-center mx-auto mb-2 group-hover:scale-110 transition-transform duration-300">
+                                                    <i class="fas fa-shield-alt w-6 h-6 text-primary"></i>
+                                                </div>
+                                                <h5 class="text-lg font-bold text-slate-800 dark:text-slate-200 mb-1">Cybersecurity</h5>
+                                                <p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed">Ethical Hacking, Penetration Testing, and Secure Development</p>
+                </div>
+                    </div>
+                </div>
+                
+                                    <!-- Skill 4 - Robotics -->
+                                    <div class="skill-slide absolute inset-0 opacity-0 transition-all duration-1000 ease-out transform scale-95" data-skill="4">
+                                        <div class="flex items-center justify-center h-full">
+                                            <div class="text-center max-w-sm mx-auto">
+                                                                                                <div class="w-12 h-12 bg-gradient-to-br from-primary/10 to-blue-500/10 rounded-xl flex items-center justify-center mx-auto mb-2 group-hover:scale-110 transition-transform duration-300">
+                                                    <i class="fas fa-robot w-6 h-6 text-primary"></i>
+                                                </div>
+                                                <h5 class="text-lg font-bold text-slate-800 dark:text-slate-200 mb-1">Robotics</h5>
+                                                <p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed">Automation Systems, Industrial Robotics, and Autonomous Vehicles</p>
+            </div>
+                </div>
+                        </div>
+                    </div>
+
+                                                                 <!-- Skills Navigation Dots -->
+                                 <div class="flex justify-center space-x-3 mt-10">
+                                    <button class="skill-dot group relative" data-skill="1">
+                                        <div class="w-3 h-3 rounded-full bg-primary/80 transition-all duration-300 group-hover:scale-125"></div>
+                                        <div class="absolute -bottom-6 left-1/2 transform -translate-x-1/2 text-xs text-slate-600 font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">AI/ML</div>
+                                    </button>
+                                    <button class="skill-dot group relative" data-skill="2">
+                                        <div class="w-3 h-3 rounded-full bg-primary/40 transition-all duration-300 group-hover:scale-125"></div>
+                                        <div class="absolute -bottom-6 left-1/2 transform -translate-x-1/2 text-xs text-slate-600 font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">Blockchain</div>
+                                    </button>
+                                    <button class="skill-dot group relative" data-skill="3">
+                                        <div class="w-3 h-3 rounded-full bg-primary/40 transition-all duration-300 group-hover:scale-125"></div>
+                                        <div class="absolute -bottom-6 left-1/2 transform -translate-x-1/2 text-xs text-slate-600 font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">Cybersecurity</div>
+                                    </button>
+                                    <button class="skill-dot group relative" data-skill="4">
+                                        <div class="w-3 h-3 rounded-full bg-primary/40 transition-all duration-300 group-hover:scale-125"></div>
+                                        <div class="absolute -bottom-6 left-1/2 transform -translate-x-1/2 text-xs text-slate-600 font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">Robotics</div>
+                                    </button>
+                                </div>
+                        </div>
+                    </div>
+
+                        <!-- Skills Progress Bar -->
+                        <div class="absolute bottom-0 left-0 right-0 h-1 bg-slate-200/50">
+                            <div class="h-full bg-gradient-to-r from-primary to-blue-600 transition-all duration-300 ease-out" id="skills-progress-bar"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        
+    <!-- Quotes & Contact Section -->
+    <section id="quotes" class="py-24 bg-gradient-to-br from-white via-slate-50 to-blue-50/30 dark:from-slate-900 dark:via-slate-800 dark:to-slate-700">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+                <!-- Left Column - Quotes -->
+                <div class="space-y-8">
+                    <div class="text-center lg:text-left">
+                        <div class="inline-flex items-center space-x-3 mb-6">
+                            <div class="w-10 h-10 bg-gradient-to-br from-primary to-blue-600 rounded-xl flex items-center justify-center">
+                                <i class="fas fa-quote-left w-5 h-5 text-white"></i>
+                            </div>
+                            <h3 class="text-3xl font-bold text-slate-900 dark:text-white">Inspirational Quotes</h3>
+                        </div>
+                        <p class="text-slate-600 dark:text-slate-400 mb-8">Words that shape thoughts and drive innovation forward.</p>
+                    </div>
+                    
+                    <div class="relative">
+                        <!-- Quote Slides Container -->
+                        <div class="relative h-80 overflow-hidden rounded-3xl bg-gradient-to-br from-white/80 to-slate-50/80 dark:from-slate-800/80 dark:to-slate-700/80 backdrop-blur-sm border border-white/20 dark:border-slate-600/20 shadow-2xl">
+                            <!-- Quote 1 -->
+                            <div class="quote-slide absolute inset-0 opacity-100 transition-all duration-700 ease-out transform translate-x-0" data-quote="1">
+                                <div class="p-10 h-full flex flex-col justify-center">
+                                    <div class="text-right mb-8">
+                                        <span class="text-4xl font-bold bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">01</span>
+                                    </div>
+                                    <blockquote class="text-2xl text-slate-700 dark:text-slate-300 italic leading-relaxed mb-8 flex-grow font-medium">
+                                        "Artificial Intelligence is neither good nor bad. It is a neutral reflection of those who imprint them."
+                                    </blockquote>
+                                    <cite class="text-slate-600 dark:text-slate-400 font-semibold text-lg">― Emmanuel Apetsi</cite>
+                                </div>
+                            </div>
+                            
+                            <!-- Quote 2 -->
+                            <div class="quote-slide absolute inset-0 opacity-0 transition-all duration-700 ease-out transform translate-x-full" data-quote="2">
+                                <div class="p-10 h-full flex flex-col justify-center">
+                                    <div class="text-right mb-8">
+                                        <span class="text-4xl font-bold bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">02</span>
+                                    </div>
+                                    <blockquote class="text-2xl text-slate-700 dark:text-slate-300 italic leading-relaxed mb-8 flex-grow font-medium">
+                                        "Your dreams require your actions to manifest, don't deny them."
+                                    </blockquote>
+                                    <cite class="text-slate-600 dark:text-slate-400 font-semibold text-lg">― Emmanuel Apetsi</cite>
+                                </div>
+                            </div>
+                            
+                            <!-- Quote 3 -->
+                            <div class="quote-slide absolute inset-0 opacity-0 transition-all duration-700 ease-out transform translate-x-full" data-quote="3">
+                                <div class="p-10 h-full flex flex-col justify-center">
+                                    <div class="text-right mb-8">
+                                        <span class="text-4xl font-bold bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">03</span>
+                                    </div>
+                                    <blockquote class="text-2xl text-slate-700 dark:text-slate-300 italic leading-relaxed mb-8 flex-grow font-medium">
+                                           "When technology and humanity unite, the possibilities are boundless."
+                                       </blockquote>
+                                                                        <cite class="text-slate-600 dark:text-slate-400 font-semibold text-lg">― Emmanuel Apetsi</cite>
+                                </div>
+                            </div>
+                            
+                            <!-- Quote 4 -->
+                            <div class="quote-slide absolute inset-0 opacity-0 transition-all duration-700 ease-out transform translate-x-full" data-quote="4">
+                                <div class="p-10 h-full flex flex-col justify-center">
+                                    <div class="text-right mb-8">
+                                        <span class="text-4xl font-bold bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">04</span>
+                                    </div>
+                                    <blockquote class="text-2xl text-slate-700 dark:text-slate-300 italic leading-relaxed mb-8 flex-grow font-medium">
+                                        "Every engineering marvel marks not an end but a spark—the true brilliance lies in what it inspires next."
+                                    </blockquote>
+                                    <cite class="text-slate-600 dark:text-slate-400 font-semibold text-lg">― Emmanuel Apetsi</cite>
+                                </div>
+                            </div>
+                            
+                            <!-- Quote 5 -->
+                            <div class="quote-slide absolute inset-0 opacity-0 transition-all duration-700 ease-out transform translate-x-full" data-quote="5">
+                                <div class="p-10 h-full flex flex-col justify-center">
+                                    <div class="text-right mb-8">
+                                        <span class="text-4xl font-bold bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">05</span>
+                                    </div>
+                                    <blockquote class="text-2xl text-slate-700 dark:text-slate-300 italic leading-relaxed mb-8 flex-grow font-medium">
+                                        "AI's current best is the least it will ever be."
+                                    </blockquote>
+                                    <cite class="text-slate-600 dark:text-slate-400 font-semibold text-lg">― Emmanuel Apetsi</cite>
+                                </div>
+                            </div>
+                            
+                            <!-- Quote 6 -->
+                            <div class="quote-slide absolute inset-0 opacity-0 transition-all duration-700 ease-out transform translate-x-full" data-quote="6">
+                                <div class="p-10 h-full flex flex-col justify-center">
+                                    <div class="text-right mb-8">
+                                        <span class="text-4xl font-bold bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">06</span>
+                                    </div>
+                                    <blockquote class="text-2xl text-slate-700 dark:text-slate-300 italic leading-relaxed mb-8 flex-grow font-medium">
+                                        "In AI innovation, out of every hundred ideas, ten don't belong, eighty are just experiments, nine push the boundaries—and one breakthrough changes the world."
+                                    </blockquote>
+                                    <cite class="text-slate-600 dark:text-slate-400 font-semibold text-lg">― Emmanuel Apetsi</cite>
+                                </div>
+                            </div>
+                            
+                            <!-- Quote 7 -->
+                            <div class="quote-slide absolute inset-0 opacity-0 transition-all duration-700 ease-out transform translate-x-full" data-quote="7">
+                                <div class="p-10 h-full flex flex-col justify-center">
+                                    <div class="text-right mb-8">
+                                        <span class="text-4xl font-bold bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">07</span>
+                                    </div>
+                                    <blockquote class="text-2xl text-slate-700 dark:text-slate-300 italic leading-relaxed mb-8 flex-grow font-medium">
+                                        "Don't just be an engineer—be an evolving force of innovation, constantly upskilled, or someone more driven will take your place."
+                                    </blockquote>
+                                    <cite class="text-slate-600 dark:text-slate-400 font-semibold text-lg">― Emmanuel Apetsi</cite>
+                                </div>
+                            </div>
+                            
+                            <!-- Quote 8 -->
+                            <div class="quote-slide absolute inset-0 opacity-0 transition-all duration-700 ease-out transform translate-x-full" data-quote="8">
+                                <div class="p-10 h-full flex flex-col justify-center">
+                                    <div class="text-right mb-8">
+                                        <span class="text-4xl font-bold bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">08</span>
+                                    </div>
+                                    <blockquote class="text-2xl text-slate-700 dark:text-slate-300 italic leading-relaxed mb-8 flex-grow font-medium">
+                                        "Disaster looms if AI advances faster than our ethical decisions."
+                                    </blockquote>
+                                    <cite class="text-slate-600 dark:text-slate-400 font-semibold text-lg">― Emmanuel Apetsi</cite>
+                                </div>
+                            </div>
+                            
+                            <!-- Quote 9 -->
+                            <div class="quote-slide absolute inset-0 opacity-0 transition-all duration-700 ease-out transform translate-x-full" data-quote="9">
+                                <div class="p-10 h-full flex flex-col justify-center">
+                                    <div class="text-right mb-8">
+                                        <span class="text-4xl font-bold bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">09</span>
+                                    </div>
+                                    <blockquote class="text-2xl text-slate-700 dark:text-slate-300 italic leading-relaxed mb-8 flex-grow font-medium">
+                                        "With every leap in AI, the limitations of disability diminish, unveiling the limitless potential within us all."
+                                    </blockquote>
+                                    <cite class="text-slate-600 dark:text-slate-400 font-semibold text-lg">― Emmanuel Apetsi</cite>
+                                </div>
+                            </div>
+                            
+                            <!-- Quote 10 -->
+                            <div class="quote-slide absolute inset-0 opacity-0 transition-all duration-700 ease-out transform translate-x-full" data-quote="10">
+                                <div class="p-10 h-full flex flex-col justify-center">
+                                    <div class="text-right mb-8">
+                                        <span class="text-4xl font-bold bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">10</span>
+                                    </div>
+                                    <blockquote class="text-2xl text-slate-700 dark:text-slate-300 italic leading-relaxed mb-8 flex-grow font-medium">
+                                        "Earth's perpetual upheaval is both the forge of life and its greatest trial; in the embrace of constant change, existence is both nurtured and tested."
+                                    </blockquote>
+                                    <cite class="text-slate-600 dark:text-slate-400 font-semibold text-lg">― Emmanuel Apetsi</cite>
+                                </div>
+                            </div>
+                            
+                            <!-- Quote 11 -->
+                            <div class="quote-slide absolute inset-0 opacity-0 transition-all duration-700 ease-out transform translate-x-full" data-quote="11">
+                                <div class="p-10 h-full flex flex-col justify-center">
+                                    <div class="text-right mb-8">
+                                        <span class="text-4xl font-bold bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">11</span>
+                                    </div>
+                                    <blockquote class="text-2xl text-slate-700 dark:text-slate-300 italic leading-relaxed mb-8 flex-grow font-medium">
+                                        "Mastering prompts isn't about asking questions—it's about unlocking answers by asking the right ones."
+                                    </blockquote>
+                                    <cite class="text-slate-600 dark:text-slate-400 font-semibold text-lg">― Emmanuel Apetsi</cite>
+                                </div>
+                            </div>
+                            
+                            <!-- Quote 12 -->
+                            <div class="quote-slide absolute inset-0 opacity-0 transition-all duration-700 ease-out transform translate-x-full" data-quote="12">
+                                <div class="p-10 h-full flex flex-col justify-center">
+                                    <div class="text-right mb-8">
+                                        <span class="text-4xl font-bold bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">12</span>
+                                    </div>
+                                    <blockquote class="text-2xl text-slate-700 dark:text-slate-300 italic leading-relaxed mb-8 flex-grow font-medium">
+                                        "The FUTURE is AGENTIC—embrace the rise of AI AGENTS and catapult humanity into an era of unprecedented cognitive augmentation and creative synergy!"
+                                    </blockquote>
+                                    <cite class="text-slate-600 dark:text-slate-400 font-semibold text-lg">― Emmanuel Apetsi</cite>
+                                </div>
+                            </div>
+                            
+                            <!-- Quote 13 -->
+                            <div class="quote-slide absolute inset-0 opacity-0 transition-all duration-700 ease-out transform translate-x-full" data-quote="13">
+                                <div class="p-10 h-full flex flex-col justify-center">
+                                    <div class="text-right mb-8">
+                                        <span class="text-4xl font-bold bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">13</span>
+                                    </div>
+                                    <blockquote class="text-2xl text-slate-700 dark:text-slate-300 italic leading-relaxed mb-8 flex-grow font-medium">
+                                        "In an ever-competing world of Innovation, let us not forget to place nature at its heart."
+                                    </blockquote>
+                                    <cite class="text-slate-600 dark:text-slate-400 font-semibold text-lg">― Emmanuel Apetsi</cite>
+                                </div>
+                            </div>
+                            
+                            <!-- Quote 14 -->
+                            <div class="quote-slide absolute inset-0 opacity-0 transition-all duration-700 ease-out transform translate-x-full" data-quote="14">
+                                <div class="p-10 h-full flex flex-col justify-center">
+                                    <div class="text-right mb-8">
+                                        <span class="text-4xl font-bold bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">14</span>
+                                    </div>
+                                    <blockquote class="text-2xl text-slate-700 dark:text-slate-300 italic leading-relaxed mb-8 flex-grow font-medium">
+                                        "The most sophisticated engineers are those that are self-taught. It is a journey that gives them a unique level of engineering intimacy."
+                                    </blockquote>
+                                    <cite class="text-slate-600 dark:text-slate-400 font-semibold text-lg">― Emmanuel Apetsi</cite>
+                                </div>
+                            </div>
+                            
+                            <!-- Quote 15 -->
+                            <div class="quote-slide absolute inset-0 opacity-0 transition-all duration-700 ease-out transform translate-x-full" data-quote="15">
+                                <div class="p-10 h-full flex flex-col justify-center">
+                                    <div class="text-right mb-8">
+                                        <span class="text-4xl font-bold bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">15</span>
+                                    </div>
+                                    <blockquote class="text-2xl text-slate-700 dark:text-slate-300 italic leading-relaxed mb-8 flex-grow font-medium">
+                                        "To be a visionary leader, the future must be your home."
+                                    </blockquote>
+                                    <cite class="text-slate-600 dark:text-slate-400 font-semibold text-lg">― Emmanuel Apetsi</cite>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Navigation Buttons -->
+                        <div class="flex justify-center space-x-6 mt-10">
+                            <button class="quote-nav bg-gradient-to-r from-slate-200 to-slate-300 dark:from-slate-600 dark:to-slate-700 hover:from-primary hover:to-blue-600 hover:text-white text-slate-600 dark:text-slate-300 w-14 h-14 rounded-2xl flex items-center justify-center transition-all duration-300 hover:scale-110 shadow-lg hover:shadow-xl" data-direction="prev">
+                                <i class="fas fa-chevron-left w-6 h-6"></i>
+                            </button>
+                            <button class="quote-nav bg-gradient-to-r from-slate-200 to-slate-300 dark:from-slate-600 dark:to-slate-700 hover:from-primary hover:to-blue-600 hover:text-white text-slate-600 dark:text-slate-300 w-14 h-14 rounded-2xl flex items-center justify-center transition-all duration-300 hover:scale-110 shadow-lg hover:shadow-xl" data-direction="next">
+                                <i class="fas fa-chevron-right w-6 h-6"></i>
+                            </button>
+            </div>
+                        
+                        <!-- Explore More Link and Blog Link -->
+                        <div class="text-center mt-8">
+                            <div class="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-6">
+                                <a href="https://apetsi.com/my-quotes/" target="_blank" class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-primary to-blue-600 hover:from-primary/90 hover:to-blue-600/90 text-white font-semibold rounded-2xl shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl">
+                                    <i class="fas fa-lightbulb w-5 h-5 mr-2"></i>
+                                    Explore More Quotes
+                                </a>
+                                <a href="https://apetsi.com" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-slate-600 to-slate-700 hover:from-slate-700 hover:to-slate-800 text-white font-semibold rounded-2xl shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl">
+                                    <i class="fas fa-blog w-5 h-5 mr-2"></i>
+                                    My Blog
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                                </div>
+                
+                <!-- Right Column - Contact Information -->
+                <div class="space-y-8">
+                    <div class="text-center lg:text-left">
+                        <div class="inline-flex items-center space-x-3 mb-6">
+                            <div class="w-10 h-10 bg-gradient-to-br from-primary to-blue-600 rounded-xl flex items-center justify-center">
+                                <i class="fas fa-comments w-5 h-5 text-white"></i>
+                            </div>
+                            <h3 class="text-3xl font-bold text-slate-900 dark:text-white">Let's Connect</h3>
+                        </div>
+                        <p class="text-slate-600 dark:text-slate-400 mb-8">Ready to collaborate on something amazing? I'd love to hear from you.</p>
+                </div>
+                
+                    <!-- Contact Info Cards -->
+                    <div class="space-y-6">
+                        <div class="group p-6 bg-gradient-to-br from-white/80 to-slate-50/80 dark:from-slate-800/80 dark:to-slate-700/80 backdrop-blur-sm rounded-2xl border border-white/20 dark:border-slate-600/20 hover:shadow-lg transition-all duration-300 hover:scale-105">
+                            <div class="flex items-center space-x-4">
+                                <div class="w-12 h-12 bg-gradient-to-br from-primary/20 to-blue-500/20 dark:from-primary/30 dark:to-blue-500/30 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                                    <i class="fas fa-map-marker-alt w-6 h-6 text-primary"></i>
+                                </div>
+                                <div>
+                                    <p class="font-bold text-slate-900 dark:text-white text-lg mb-1">Location</p>
+                                    <p class="text-slate-600 dark:text-slate-400">Accra, Ghana</p>
+                                </div>
+                                    </div>
+                        </div>
+                        
+                        <div class="group p-6 bg-gradient-to-br from-white/80 to-slate-50/80 dark:from-slate-800/80 dark:to-slate-700/80 backdrop-blur-sm rounded-2xl border border-white/20 dark:border-slate-600/20 hover:shadow-lg transition-all duration-300 hover:scale-105">
+                            <div class="flex items-center space-x-4">
+                                <div class="w-12 h-12 bg-gradient-to-br from-primary/20 to-blue-500/20 dark:from-primary/30 dark:to-blue-500/30 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                                    <i class="fas fa-phone w-6 h-6 text-primary"></i>
+                                </div>
+                                <div>
+                                    <p class="font-bold text-slate-900 dark:text-white text-lg mb-1">Phone</p>
+                                    <a href="tel:+233000000000" class="text-slate-600 dark:text-slate-400 hover:text-primary transition-colors font-medium">+233 (0) 000000000</a>
+                                </div>
+                            </div>
+                    </div>
+
+                        <div class="group p-6 bg-gradient-to-br from-white/80 to-slate-50/80 dark:from-slate-800/80 dark:to-slate-700/80 backdrop-blur-sm rounded-2xl border border-white/20 dark:border-slate-600/20 hover:shadow-lg transition-all duration-300 hover:scale-105">
+                            <div class="flex items-center space-x-4">
+                                <div class="w-12 h-12 bg-gradient-to-br from-primary/20 to-blue-500/20 dark:from-primary/30 dark:to-blue-500/30 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                                    <i class="fas fa-envelope w-6 h-6 text-primary"></i>
+                                </div>
+                                <div>
+                                    <p class="font-bold text-slate-900 dark:text-white text-lg mb-1">Email</p>
+                                    <a href="mailto:hello@emmanuelapetsi.com" class="text-slate-600 dark:text-slate-400 hover:text-primary transition-colors font-medium">hello@emmanuelapetsi.com</a>
+                                </div>
+                        </div>
+                    </div>
+                    
+                        <div class="group p-6 bg-gradient-to-br from-white/80 to-slate-50/80 dark:from-slate-800/80 dark:to-slate-700/80 backdrop-blur-sm rounded-2xl border border-white/20 dark:border-slate-600/20 hover:shadow-lg transition-all duration-300 hover:scale-105">
+                            <div class="flex items-center space-x-4">
+                                <div class="w-12 h-12 bg-gradient-to-br from-primary/20 to-blue-500/20 dark:from-primary/30 dark:to-blue-500/30 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                                    <i class="fas fa-clock w-6 h-6 text-primary"></i>
+                                </div>
+                                <div>
+                                    <p class="font-bold text-slate-900 dark:text-white text-lg mb-1">Available</p>
+                                    <p class="text-slate-600 dark:text-slate-400">Mon - Sat: 8:00 AM to 6:00 PM</p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                
+                    <!-- Social Links -->
+                    <div class="text-center">
+                        <div class="inline-flex items-center space-x-2 bg-gradient-to-r from-slate-100 to-blue-100 dark:from-slate-700 dark:to-slate-600 rounded-2xl px-6 py-3 mb-6">
+                            <i class="fas fa-handshake w-5 h-5 text-primary"></i>
+                            <p class="font-semibold text-slate-900 dark:text-white">Let's Connect</p>
+                        </div>
+                        <div class="flex justify-center space-x-4">
+                            <a href="https://twitter.com/manuelapetsi" target="_blank" class="group w-12 h-12 bg-gradient-to-br from-slate-100 to-blue-100 dark:from-slate-700 dark:to-slate-600 hover:from-primary hover:to-blue-600 rounded-2xl flex items-center justify-center transition-all duration-300 hover:scale-110 hover:shadow-lg border border-slate-200/50 dark:border-slate-600/50">
+                                <i class="fab fa-x-twitter w-5 h-5 text-slate-600 dark:text-slate-400 group-hover:text-white transition-colors duration-300"></i>
+                            </a>
+                            <a href="https://instagram.com/manuelapetsi" target="_blank" class="group w-12 h-12 bg-gradient-to-br from-slate-100 to-blue-100 dark:from-slate-700 dark:to-slate-600 hover:from-primary hover:to-blue-600 rounded-2xl flex items-center justify-center transition-all duration-300 hover:scale-110 hover:shadow-lg border border-slate-200/50 dark:border-slate-600/50">
+                                <i class="fab fa-instagram w-5 h-5 text-slate-600 dark:text-slate-400 group-hover:text-white transition-colors duration-300"></i>
+                            </a>
+                            <a href="https://linkedin.com/in/manuelapetsi" target="_blank" class="group w-12 h-12 bg-gradient-to-br from-slate-100 to-blue-100 dark:from-slate-700 dark:to-slate-600 hover:from-primary hover:to-blue-600 rounded-2xl flex items-center justify-center transition-all duration-300 hover:scale-110 hover:shadow-lg border border-slate-200/50 dark:border-slate-600/50">
+                                <i class="fab fa-linkedin w-5 h-5 text-slate-600 dark:text-slate-400 group-hover:text-white transition-colors duration-300"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        
+
+        
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div>
+                    <p class="text-slate-300">Copyright © Emmanuel Apetsi 2025. All rights reserved.</p>
+                </div>
+                <div class="flex justify-end">
+                    <img src="assets/images/logo-dark.svg" alt="Emmanuel Apetsi" class="h-8 w-auto opacity-80 hover:opacity-100 transition-opacity duration-300">
+                </div>
+            </div>
+            </div>
+        </footer>
+        
+    <style>
+        @keyframes breathe {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+        
+        .animate-wobble {
+            animation: breathe 2s ease-in-out;
+        }
+    </style>
+    
+    <!-- JavaScript for accordion menu -->
+    <script>
+        // Accordion menu functionality
+        const accordionButton = document.getElementById('accordion-menu-button');
+        const accordionMenu = document.getElementById('accordion-menu');
+        let isMenuOpen = false;
+        
+        accordionButton.addEventListener('click', function() {
+            isMenuOpen = !isMenuOpen;
+            
+            if (isMenuOpen) {
+                // Open menu
+                accordionMenu.classList.remove('opacity-0', 'invisible', 'scale-95', '-translate-y-2');
+                accordionMenu.classList.add('opacity-100', 'visible', 'scale-100', 'translate-y-0');
+                
+                // Rotate arrow down
+                accordionButton.querySelector('i').classList.add('rotate-180');
+            } else {
+                // Close menu
+                accordionMenu.classList.remove('opacity-100', 'visible', 'scale-100', 'translate-y-0');
+                accordionMenu.classList.add('opacity-0', 'invisible', 'scale-95', '-translate-y-2');
+                
+                // Rotate arrow back up
+                accordionButton.querySelector('i').classList.remove('rotate-180');
+            }
+        });
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', function(event) {
+            if (!accordionButton.contains(event.target) && !accordionMenu.contains(event.target)) {
+                isMenuOpen = false;
+                accordionMenu.classList.remove('opacity-100', 'visible', 'scale-100', 'translate-y-0');
+                accordionMenu.classList.add('opacity-0', 'invisible', 'scale-95', '-translate-y-2');
+                accordionButton.querySelector('i').classList.remove('rotate-180');
+            }
+        });
+        
+        // Quote carousel functionality
+        let currentQuote = 1;
+        const totalQuotes = 15;
+        let quotesInterval;
+        
+        function showQuote(quoteNumber) {
+            // Hide all quotes
+            document.querySelectorAll('.quote-slide').forEach(quote => {
+                quote.style.opacity = '0';
+                quote.style.transform = 'translateX(100%)';
+            });
+            
+            // Show current quote
+            const currentQuoteElement = document.querySelector(`[data-quote="${quoteNumber}"]`);
+            if (currentQuoteElement) {
+                currentQuoteElement.style.opacity = '1';
+                currentQuoteElement.style.transform = 'translateX(0)';
+            }
+        }
+        
+        function nextQuote() {
+            currentQuote = currentQuote >= totalQuotes ? 1 : currentQuote + 1;
+            showQuote(currentQuote);
+        }
+        
+        function prevQuote() {
+            currentQuote = currentQuote <= 1 ? totalQuotes : currentQuote - 1;
+            showQuote(currentQuote);
+        }
+
+        function startQuotesAuto() {
+            if (quotesInterval) clearInterval(quotesInterval);
+            quotesInterval = setInterval(nextQuote, 15000);
+        }
+
+        function stopQuotesAuto() {
+            if (quotesInterval) clearInterval(quotesInterval);
+        }
+        
+        // Initialize quote carousel
+        document.addEventListener('DOMContentLoaded', function() {
+            showQuote(1);
+            startQuotesAuto();
+            
+            // Add click events to navigation buttons
+            document.querySelectorAll('.quote-nav').forEach(nav => {
+                nav.addEventListener('click', () => {
+                    if (nav.dataset.direction === 'next') {
+                        nextQuote();
+                    } else {
+                        prevQuote();
+                    }
+                    startQuotesAuto();
+                });
+            });
+
+            // Pause on hover over quote container
+            const firstQuoteEl = document.querySelector('.quote-slide');
+            if (firstQuoteEl && firstQuoteEl.parentElement) {
+                const quoteContainer = firstQuoteEl.parentElement;
+                quoteContainer.addEventListener('mouseenter', stopQuotesAuto);
+                quoteContainer.addEventListener('mouseleave', startQuotesAuto);
+            }
+        });
+        
+        // Dark mode functionality
+        const themeToggle = document.getElementById('theme-toggle');
+        const sunIcon = document.getElementById('sun-icon');
+        const moonIcon = document.getElementById('moon-icon');
+        let isDarkMode = false;
+        
+        // Check for saved theme preference or default to light mode
+        if (localStorage.getItem('theme') === 'dark' || (!localStorage.getItem('theme') && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            isDarkMode = true;
+            document.documentElement.classList.add('dark');
+            // The toggle slider position and icon visibility are handled by CSS
+        }
+        
+        themeToggle.addEventListener('click', function() {
+            isDarkMode = !isDarkMode;
+            
+            if (isDarkMode) {
+                // Switch to dark mode
+                document.documentElement.classList.add('dark');
+                localStorage.setItem('theme', 'dark');
+            } else {
+                // Switch to light mode
+                document.documentElement.classList.remove('dark');
+                localStorage.setItem('theme', 'light');
+            }
+        });
+        
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Typing effect for roles
+        const roles = [
+            "Founder & Director",
+            "AI/ML Engineer",
+            "Inventor & Innovator",
+            "CEO, CTO & COO",
+            "Product Manager",
+            "Systems Thinking Expert",
+            "Project Manager",
+            "Roboticist",
+            "Cyber Security Expert",
+            "Blockchain Enthusiast",
+            "SDGs Advocate",
+            "AI & IT Consultant",
+            "Philanthropist",
+            "Creative Thinker",
+            "Agripreneur",
+            "Design Thinking Expert",
+            "Leader",
+            "Professional Mentor"
+        ];
+
+        let currentRoleIndex = 0;
+        let currentCharIndex = 0;
+        let isDeleting = false;
+        let typingSpeed = 100;
+
+        function typeText() {
+            const typingElement = document.getElementById('typing-text');
+            const currentRole = roles[currentRoleIndex];
+            
+            if (isDeleting) {
+                if (currentCharIndex > 0) {
+                    typingElement.textContent = currentRole.substring(0, currentCharIndex - 1);
+                    currentCharIndex--;
+                    setTimeout(typeText, typingSpeed / 2);
+                } else {
+                    isDeleting = false;
+                    currentRoleIndex = (currentRoleIndex + 1) % roles.length;
+                    setTimeout(typeText, 300);
+                }
+            } else {
+                if (currentCharIndex < currentRole.length) {
+                    typingElement.textContent = currentRole.substring(0, currentCharIndex + 1);
+                    currentCharIndex++;
+                    setTimeout(typeText, typingSpeed);
+                } else {
+                    setTimeout(() => {
+                        isDeleting = true;
+                        typeText();
+                    }, 2000);
+                }
+            }
+        }
+
+        // Start typing effect after page loads
+        setTimeout(typeText, 1000);
+        
+        // Breathing animation for portfolio container
+        function triggerBreathing() {
+            const container = document.getElementById('wobble-container');
+            if (container) {
+                // Reset the animation by removing and re-adding the class
+                container.classList.remove('animate-wobble');
+                void container.offsetWidth; // Force reflow
+                container.classList.add('animate-wobble');
+                container.style.animationPlayState = 'running';
+            }
+        }
+        
+        // Trigger breathing every 15 seconds
+        setInterval(triggerBreathing, 15000);
+        
+        // Initial breathing after 3 seconds
+        setTimeout(triggerBreathing, 3000);
+
+        // Portfolio Carousel functionality
+        let currentSlide = 1;
+        const totalSlides = 4;
+        let carouselInterval;
+        let progressInterval;
+
+        function showSlide(slideNumber) {
+            // Hide all slides with enhanced animations
+            document.querySelectorAll('.carousel-slide').forEach(slide => {
+                slide.style.opacity = '0';
+                slide.style.transform = 'scale(1.05)';
+            });
+            
+            // Show current slide with enhanced animations
+            const currentSlideElement = document.querySelector(`[data-slide="${slideNumber}"]`);
+            if (currentSlideElement) {
+                currentSlideElement.style.opacity = '1';
+                currentSlideElement.style.transform = 'scale(1)';
+            }
+            
+            // Update navigation dots
+            document.querySelectorAll('.carousel-dot').forEach((dot, index) => {
+                const dotIndicator = dot.querySelector('div');
+                if (index + 1 === slideNumber) {
+                    dotIndicator.classList.remove('bg-white/40');
+                    dotIndicator.classList.add('bg-white/80');
+                } else {
+                    dotIndicator.classList.remove('bg-white/80');
+                    dotIndicator.classList.add('bg-white/40');
+                }
+            });
+            
+            // Update slide counter
+            document.getElementById('slide-counter').textContent = slideNumber;
+            
+            // Reset progress bar
+            resetProgressBar();
+        }
+
+        function nextSlide() {
+            currentSlide = currentSlide >= totalSlides ? 1 : currentSlide + 1;
+            showSlide(currentSlide);
+        }
+
+        function prevSlide() {
+            currentSlide = currentSlide <= 1 ? totalSlides : currentSlide - 1;
+            showSlide(currentSlide);
+        }
+
+        function startCarousel() {
+            if (!document.querySelector('.carousel-slide')) return;
+            carouselInterval = setInterval(nextSlide, 15000); // Change slide every 15 seconds
+            startProgressBar();
+        }
+
+        function stopCarousel() {
+            clearInterval(carouselInterval);
+            clearInterval(progressInterval);
+        }
+
+        function startProgressBar() {
+            const progressBar = document.getElementById('progress-bar');
+            if (!progressBar) return;
+            let progress = 0;
+            
+            progressInterval = setInterval(() => {
+                progress += 0.167; // 15000ms / 100% = 0.167% per 25ms
+                progressBar.style.width = progress + '%';
+                
+                if (progress >= 100) {
+                    clearInterval(progressInterval);
+                }
+            }, 25);
+        }
+
+        function resetProgressBar() {
+            const progressBar = document.getElementById('progress-bar');
+            if (!progressBar) return;
+            progressBar.style.width = '0%';
+            clearInterval(progressInterval);
+            startProgressBar();
+        }
+
+        // Skills Carousel functionality
+        let currentSkill = 1;
+        const totalSkills = 4;
+        let skillsInterval;
+        let skillsProgressInterval;
+
+        function showSkill(skillNumber) {
+            // Hide all skills with enhanced slide animations
+            document.querySelectorAll('.skill-slide').forEach(slide => {
+                slide.style.opacity = '0';
+                slide.style.transform = 'scale(0.95)';
+            });
+            
+            // Show current skill with enhanced slide animation
+            const currentSkillElement = document.querySelector(`[data-skill="${skillNumber}"]`);
+            if (currentSkillElement) {
+                currentSkillElement.style.opacity = '1';
+                currentSkillElement.style.transform = 'scale(1)';
+            }
+            
+            // Update navigation dots
+            document.querySelectorAll('.skill-dot').forEach((dot, index) => {
+                const dotIndicator = dot.querySelector('div');
+                if (index + 1 === skillNumber) {
+                    dotIndicator.classList.remove('bg-primary/40');
+                    dotIndicator.classList.add('bg-primary/80');
+                } else {
+                    dotIndicator.classList.remove('bg-primary/80');
+                    dotIndicator.classList.add('bg-primary/40');
+                }
+            });
+            
+            // Reset skills progress bar
+            resetSkillsProgressBar();
+        }
+
+        function nextSkill() {
+            currentSkill = currentSkill >= totalSkills ? 1 : currentSkill + 1;
+            showSkill(currentSkill);
+        }
+
+        function prevSkill() {
+            currentSkill = currentSkill <= 1 ? totalSkills : currentSkill - 1;
+            showSkill(currentSkill);
+        }
+
+        function startSkillsCarousel() {
+            skillsInterval = setInterval(nextSkill, 4000); // Change skill every 4 seconds
+            startSkillsProgressBar();
+        }
+
+        function stopSkillsCarousel() {
+            clearInterval(skillsInterval);
+            clearInterval(skillsProgressInterval);
+        }
+
+        function startSkillsProgressBar() {
+            const progressBar = document.getElementById('skills-progress-bar');
+            let progress = 0;
+            
+            skillsProgressInterval = setInterval(() => {
+                progress += 0.5; // 4000ms / 100% = 0.5% per 20ms
+                progressBar.style.width = progress + '%';
+                
+                if (progress >= 100) {
+                    clearInterval(skillsProgressInterval);
+                }
+            }, 20);
+        }
+
+        function resetSkillsProgressBar() {
+            const progressBar = document.getElementById('skills-progress-bar');
+            progressBar.style.width = '0%';
+            clearInterval(skillsProgressInterval);
+            startSkillsProgressBar();
+        }
+
+        // Initialize carousel
+        document.addEventListener('DOMContentLoaded', function() {
+            // Portfolio carousel initialization (only if slides exist)
+            if (document.querySelector('.carousel-slide')) {
+                showSlide(1);
+                startCarousel();
+            }
+            
+            // Navigation dots click events
+            document.querySelectorAll('.carousel-dot').forEach((dot, index) => {
+                dot.addEventListener('click', () => {
+                    currentSlide = index + 1;
+                    showSlide(currentSlide);
+                    stopCarousel();
+                    startCarousel();
+                });
+            });
+            
+            // Previous/Next button events
+            document.querySelectorAll('.carousel-nav').forEach(button => {
+                button.addEventListener('click', () => {
+                    if (button.dataset.direction === 'next') {
+                        nextSlide();
+                    } else {
+                        prevSlide();
+                    }
+                    stopCarousel();
+                    startCarousel();
+                });
+            });
+            
+            // Pause carousel on hover
+            const firstCarouselSlide = document.querySelector('.carousel-slide');
+            if (firstCarouselSlide && firstCarouselSlide.parentElement) {
+                const carousel = firstCarouselSlide.parentElement;
+                carousel.addEventListener('mouseenter', stopCarousel);
+                carousel.addEventListener('mouseleave', startCarousel);
+            }
+            
+            // Keyboard navigation
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'ArrowLeft') {
+                    prevSlide();
+                    stopCarousel();
+                    startCarousel();
+                } else if (e.key === 'ArrowRight') {
+                    nextSlide();
+                    stopCarousel();
+                    startCarousel();
+                }
+            });
+
+            // Skills carousel initialization
+            showSkill(1);
+            startSkillsCarousel();
+            
+            // Skills navigation dots click events
+            document.querySelectorAll('.skill-dot').forEach((dot, index) => {
+                dot.addEventListener('click', () => {
+                    currentSkill = index + 1;
+                    showSkill(currentSkill);
+                    stopSkillsCarousel();
+                    startSkillsCarousel();
+                });
+            });
+            
+            // Skills Previous/Next button events
+            document.querySelectorAll('.skill-nav').forEach(button => {
+                button.addEventListener('click', () => {
+                    if (button.dataset.direction === 'next') {
+                        nextSkill();
+                    } else {
+                        prevSkill();
+                    }
+                    stopSkillsCarousel();
+                    startSkillsCarousel();
+                });
+            });
+            
+            // Pause skills carousel on hover
+            const firstSkillSlide = document.querySelector('.skill-slide');
+            if (firstSkillSlide && firstSkillSlide.parentElement) {
+                const skillsCarousel = firstSkillSlide.parentElement;
+                skillsCarousel.addEventListener('mouseenter', stopSkillsCarousel);
+                skillsCarousel.addEventListener('mouseleave', startSkillsCarousel);
+            }
+            
+            // Full image view functionality
+            const fullImageViewBtn = document.getElementById('full-image-view');
+            if (fullImageViewBtn) {
+                fullImageViewBtn.addEventListener('click', function() {
+                    // Create modal overlay
+                    const modal = document.createElement('div');
+                    modal.className = 'fixed inset-0 bg-black/70 backdrop-blur-sm z-50 flex items-center justify-center p-4';
+                    modal.id = 'image-modal';
+                    
+                    // Create modal content
+                    const modalContent = document.createElement('div');
+                    modalContent.className = 'relative max-w-4xl max-h-full';
+                    
+                    // Create close button
+                    const closeBtn = document.createElement('button');
+                    closeBtn.className = 'absolute -top-12 right-0 w-10 h-10 bg-white/20 hover:bg-white/30 rounded-full flex items-center justify-center text-white transition-colors duration-300';
+                    closeBtn.innerHTML = '<i class="fas fa-times w-5 h-5"></i>';
+                    closeBtn.addEventListener('click', () => modal.remove());
+                    
+                    // Create image
+                    const fullImage = document.createElement('img');
+                    fullImage.src = 'assets/images/me-1.jpg';
+                    fullImage.alt = 'Emmanuel Apetsi - Leadership Portrait';
+                    fullImage.className = 'w-full h-auto max-h-[90vh] object-contain rounded-lg shadow-2xl';
+                    
+                    // Assemble modal
+                    modalContent.appendChild(closeBtn);
+                    modalContent.appendChild(fullImage);
+                    modal.appendChild(modalContent);
+                    
+                    // Add to body
+                    document.body.appendChild(modal);
+                    
+                    // Close on background click
+                    modal.addEventListener('click', (e) => {
+                        if (e.target === modal) modal.remove();
+                    });
+                    
+                    // Close on escape key
+                    document.addEventListener('keydown', function closeOnEscape(e) {
+                        if (e.key === 'Escape') {
+                            modal.remove();
+                            document.removeEventListener('keydown', closeOnEscape);
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
+</html>
