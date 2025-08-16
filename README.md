@@ -15,7 +15,7 @@ A modern, responsive personal portfolio website built with HTML, CSS, and JavaSc
 
 ## 🚀 Live Demo
 
-Visit the live website: [Your Website URL]
+Visit the live website: [http://emmanuelapetsi.com]
 
 ## 🛠️ Technologies Used
 
@@ -134,7 +134,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Manuel Apeti**
 - GitHub: [@manuelapetsi](https://github.com/manuelapetsi)
-- Portfolio: [Your Portfolio URL]
+- Portfolio: [https://emmanuelapetsi.com]
 
 ## 🙏 Acknowledgments
 
