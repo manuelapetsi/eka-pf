@@ -132,7 +132,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Author
 
-**Manuel Apeti**
+**Manuel Apetsi**
 - GitHub: [@manuelapetsi](https://github.com/manuelapetsi)
 - Portfolio: [https://emmanuelapetsi.com]
 
